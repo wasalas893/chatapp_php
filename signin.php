@@ -30,7 +30,7 @@
              </div>
              <div class="form-group">
              <label>Password</label>
-             <input type="password" class="form-control" name="pas" placeholder="Password" autocomplete="off" required>
+             <input type="password" class="form-control" name="pass" placeholder="Password" autocomplete="off" required>
              
              </div>
 
@@ -43,7 +43,7 @@
              <div class="form-group">
                  <button type="submit" class="btn btn-primary btn-block btn-lg" name="sign_in">Sign in</button>
              </div>
-           <!--  <?php //include("signin_user.php"); ?> -->
+              <?php include("signin_user.php"); ?>
          
          </form>
           <div class="text-center small" style="color: red;">Don't have an account?<a href="signup.php">Create one</a></div>
