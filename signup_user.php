@@ -31,7 +31,8 @@ if(isset($_POST['sign_up'])){
     if($rand==1)
         $profile_pic="images/img_avatar.png";
     else if($rand==2)
-         $profile_pic="images/unnamed.png";
+         $profile_pic="images/unnamed (1).png";
+     
 
      
      
